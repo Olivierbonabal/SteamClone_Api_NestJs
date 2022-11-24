@@ -12,7 +12,6 @@ export class AppController {
 
   @Get('hello')
   getHelloRoute(): string {
-    return "HELLO FROM ROUTE";
+    return 'HELLO FROM ROUTE';
   }
-
 }
